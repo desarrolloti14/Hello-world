@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 
+ * sticky effect
+ */
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1.5rem 0.35rem;
+}
+.sticky__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 
+ * list block item
+ */
+.list {
+    list-style: none;
+}
+.list__item {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+/* 
+ * full screem
+ */
+.full {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full__content {
+    width: 50%;
+    text-align: center;
+}
+
+/* 
+ * item effect
+ */
+.info {
+    display: flex;
+    align-items: center;
+}
+.info__item {
+    padding: 3rem 5rem;
+}
